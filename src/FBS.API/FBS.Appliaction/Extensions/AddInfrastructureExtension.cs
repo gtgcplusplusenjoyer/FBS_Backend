@@ -1,7 +1,7 @@
 ﻿using FBS.Core.Interfaces;
 using FBS.Infrastructure.Context;
 using FBS.Infrastructure.Repositories;
-using FBS.Infrastructure.Services;
+using FBS.Infrastructure.Services.External;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

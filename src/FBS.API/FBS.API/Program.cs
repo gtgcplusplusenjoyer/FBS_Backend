@@ -8,6 +8,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 
+builder.Services.AddValidation();
 builder.Services.AddAuthenticationAndJwt(builder.Configuration);
 builder.Services.AddSwaggerWithJwtAuth();
 builder.Services.AddApplication();

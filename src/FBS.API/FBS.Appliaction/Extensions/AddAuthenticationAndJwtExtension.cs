@@ -1,5 +1,5 @@
 ﻿using FBS.Core.Interfaces;
-using FBS.Infrastructure.Services;
+using FBS.Infrastructure.Services.External;
 using FBS.Infrastructure.Settings;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

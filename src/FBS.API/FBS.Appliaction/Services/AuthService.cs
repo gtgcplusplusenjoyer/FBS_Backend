@@ -12,8 +12,8 @@ namespace FBS.Application.Services
     {
         private readonly IUserRepository _users;
         private readonly FbsDbContext _context;
-        private readonly JwtService _jwtService;
-        public AuthService(IUserRepository userRepository, FbsDbContext fbsDbContext, JwtService jwtService)
+        private readonly IJwtService _jwtService;
+        public AuthService(IUserRepository userRepository, FbsDbContext fbsDbContext, IJwtService jwtService)
         {
             _context= fbsDbContext;
             _users = userRepository;

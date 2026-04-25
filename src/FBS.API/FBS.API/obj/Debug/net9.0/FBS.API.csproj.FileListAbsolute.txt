@@ -140,3 +140,4 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microso
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Application.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Application.pdb
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

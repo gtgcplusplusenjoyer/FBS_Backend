@@ -7,7 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace FBS.Infrastructure.Services
+namespace FBS.Infrastructure.Services.External
 {
     public class JwtService : IJwtService
     {
