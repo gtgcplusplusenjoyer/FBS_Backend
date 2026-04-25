@@ -1,6 +1,7 @@
 ﻿using FBS.Core.Entities.User;
 using FBS.Core.Interfaces;
 using FBS.Infrastructure.Settings;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -11,9 +12,9 @@ namespace FBS.Infrastructure.Services
     public class JwtService : IJwtService
     {
         private readonly AuthSettings _settings;
-        public JwtService(AuthSettings authSettings)
+        public JwtService(IOptions<AuthSettings> options)
         {
-            _settings = authSettings;
+            _settings = options.Value;
         }
 
         public string GenerateToken(User user)

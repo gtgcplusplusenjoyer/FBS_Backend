@@ -1,26 +1,30 @@
-using FBS.Infrastructure.Context;
-using Microsoft.EntityFrameworkCore;
+using FBS.API.Extensions;
+using FBS.Application.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
-builder.Services.AddDbContext<FbsDbContext>(options =>
-{
-    options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(FbsDbContext)));
-});
+
+builder.Services.AddAuthenticationAndJwt(builder.Configuration);
+builder.Services.AddSwaggerWithJwtAuth();
+builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
+ 
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

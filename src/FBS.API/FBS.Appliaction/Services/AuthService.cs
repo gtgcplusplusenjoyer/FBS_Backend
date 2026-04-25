@@ -28,6 +28,7 @@ namespace FBS.Application.Services
             }
 
             var user = await _users.GetUserByEmail(loginUserDto.Email);
+
             if (user == null)
             {
                 throw new Exception("User is not found");

@@ -27,7 +27,7 @@ namespace FBS.API.Controllers
         {
             try
             {
-                var token = _authService.Login(loginUserDto);
+                var token = await _authService.Login(loginUserDto);
                 return Ok(new { token, message = "Login successful" });
             }
             catch (Exception ex)

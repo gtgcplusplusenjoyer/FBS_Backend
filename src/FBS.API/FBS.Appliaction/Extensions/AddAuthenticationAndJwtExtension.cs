@@ -1,0 +1,19 @@
+﻿using FBS.Core.Interfaces;
+using FBS.Infrastructure.Services;
+using FBS.Infrastructure.Settings;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace FBS.Application.Extensions
+{
+    public static class AddAuthenticationAndJwtExtension
+    {
+        public static IServiceCollection AddAuthenticationAndJwt(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddScoped<IJwtService, JwtService>();
+            services.Configure<AuthSettings>(configuration.GetSection("AuthSettings"));
+            services.AddAuth(configuration);
+            return services;
+        }
+    }
+}
