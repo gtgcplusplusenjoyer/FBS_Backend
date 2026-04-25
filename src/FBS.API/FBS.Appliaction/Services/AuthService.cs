@@ -43,9 +43,9 @@ namespace FBS.Application.Services
              
         }
 
-        public async Task Register(RegisterUserDto registerUserDto)
+        public async Task<string> Register(RegisterUserDto registerUserDto)
         {
-            var user = _users.GetUserByEmail(registerUserDto.Email);
+            var user = await _users.GetUserByEmail(registerUserDto.Email);
             if (user != null)
             {
                 throw new InvalidOperationException("User with this email already exists");
@@ -62,6 +62,7 @@ namespace FBS.Application.Services
 
             await _users.AddAsync(newUser);
             await _context.SaveChangesAsync();
+            return _jwtService.GenerateToken(newUser);
         }
     }
 }

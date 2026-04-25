@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7C6FC0A-0C2A-4F58-9D36-9093020A8C32}|FBS.Appliaction\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.appliaction\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C6FC0A-0C2A-4F58-9D36-9093020A8C32}|FBS.Appliaction\\FBS.Application.csproj|solutionrelative:fbs.appliaction\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|solutionrelative:fbs.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|solutionrelative:fbs.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.infrastructure\\context\\fbsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|solutionrelative:fbs.infrastructure\\context\\fbsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|solutionrelative:fbs.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.infrastructure\\settings\\authsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|solutionrelative:fbs.infrastructure\\settings\\authsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C6FC0A-0C2A-4F58-9D36-9093020A8C32}|FBS.Appliaction\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.appliaction\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C6FC0A-0C2A-4F58-9D36-9093020A8C32}|FBS.Appliaction\\FBS.Application.csproj|solutionrelative:fbs.appliaction\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,24 +43,12 @@
       "RelativeMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|solutionrelative:fbs.infrastructure\\fbs.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|solutionrelative:fbs.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.core\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|solutionrelative:fbs.core\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.infrastructure\\context\\fbsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|solutionrelative:fbs.infrastructure\\context\\fbsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|solutionrelative:fbs.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A3E17B7-5583-4182-8112-A15697139C8B}|FBS.Core\\FBS.Core.csproj|solutionrelative:fbs.core\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7C6FC0A-0C2A-4F58-9D36-9093020A8C32}|FBS.Appliaction\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.appliaction\\dto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,111 +102,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthSettings.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Settings\\AuthSettings.cs",
-              "RelativeDocumentMoniker": "FBS.Infrastructure\\Settings\\AuthSettings.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Settings\\AuthSettings.cs",
-              "RelativeToolTip": "FBS.Infrastructure\\Settings\\AuthSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "FBS.Appliaction\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Services\\AuthService.cs",
+              "RelativeToolTip": "FBS.Appliaction\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:06:24.592Z",
+              "WhenOpened": "2026-04-25T17:25:38.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "FBS.Appliaction\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "FBS.Appliaction\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T17:24:56.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Services\\JwtService.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Services\\JwtService.cs",
               "RelativeToolTip": "FBS.Infrastructure\\Services\\JwtService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wBUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T17:05:22.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IJwtService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IJwtService.cs",
-              "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\IJwtService.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IJwtService.cs",
-              "RelativeToolTip": "FBS.Core\\Interfaces\\IJwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:05:02.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FBS.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\FBS.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "FBS.Infrastructure\\FBS.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\FBS.Infrastructure.csproj",
-              "RelativeToolTip": "FBS.Infrastructure\\FBS.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-25T16:50:22.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "FBS.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T16:40:18.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "FBS.Core\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:34:52.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\User\\User.cs",
-              "RelativeDocumentMoniker": "FBS.Core\\Entities\\User\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\User\\User.cs",
-              "RelativeToolTip": "FBS.Core\\Entities\\User\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:33:25.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.json",
-              "RelativeDocumentMoniker": "FBS.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.json",
-              "RelativeToolTip": "FBS.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-25T16:39:09.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Dto\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Dto\\LoginUserDto.cs",
@@ -211,7 +167,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "FbsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Context\\FbsDbContext.cs",
+              "RelativeDocumentMoniker": "FBS.Infrastructure\\Context\\FbsDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Context\\FbsDbContext.cs",
+              "RelativeToolTip": "FBS.Infrastructure\\Context\\FbsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:36:22.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Settings\\AuthSettings.cs",
+              "RelativeDocumentMoniker": "FBS.Infrastructure\\Settings\\AuthSettings.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Settings\\AuthSettings.cs",
+              "RelativeToolTip": "FBS.Infrastructure\\Settings\\AuthSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T17:06:24.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "FBS.Core\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:34:52.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FBS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.json",
+              "RelativeToolTip": "FBS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-25T16:39:09.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\User\\User.cs",
+              "RelativeDocumentMoniker": "FBS.Core\\Entities\\User\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\User\\User.cs",
+              "RelativeToolTip": "FBS.Core\\Entities\\User\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:33:25.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FBS.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\FBS.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "FBS.Infrastructure\\FBS.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\FBS.Infrastructure.csproj",
+              "RelativeToolTip": "FBS.Infrastructure\\FBS.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T16:50:22.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "FBS.Core\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T17:05:02.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Dto\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Dto\\RegisterUserDto.cs",
@@ -224,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Entities\\BaseEntity.cs",
@@ -237,20 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FbsDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Context\\FbsDbContext.cs",
-              "RelativeDocumentMoniker": "FBS.Infrastructure\\Context\\FbsDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Context\\FbsDbContext.cs",
-              "RelativeToolTip": "FBS.Infrastructure\\Context\\FbsDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:36:22.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "FBS.API.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\FBS.API.csproj",
               "RelativeDocumentMoniker": "FBS.API\\FBS.API.csproj",
@@ -263,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Program.cs",
               "RelativeDocumentMoniker": "FBS.API\\Program.cs",
@@ -271,11 +305,12 @@
               "RelativeToolTip": "FBS.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:52:27Z"
+              "WhenOpened": "2026-04-25T16:52:27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20260425165445_Initial.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Migrations\\20260425165445_Initial.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Migrations\\20260425165445_Initial.cs",
@@ -283,11 +318,12 @@
               "RelativeToolTip": "FBS.Infrastructure\\Migrations\\20260425165445_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:54:45.171Z"
+              "WhenOpened": "2026-04-25T16:54:45.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "FBS.API\\appsettings.Development.json",
@@ -295,11 +331,12 @@
               "RelativeToolTip": "FBS.API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-25T16:39:31.966Z"
+              "WhenOpened": "2026-04-25T16:39:31.966Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "FBS.Core.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\FBS.Core.csproj",
               "RelativeDocumentMoniker": "FBS.Core\\FBS.Core.csproj",
