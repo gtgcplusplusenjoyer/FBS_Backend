@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FBS.Core\FBS.Core.csproj" />
+    <ProjectReference Include="..\FBS.Infrastructure\FBS.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
