@@ -19,12 +19,16 @@ namespace FBS.Infrastructure.Repositories
         public async Task AddAsync(User user)
         { 
             await _users.AddAsync(user);
-            await _context.SaveChangesAsync();  
+ 
         }
 
         public async Task<User?> GetUserByEmail(string email)
         { 
             return await _users.FirstOrDefaultAsync(x=>x.Email== email);
+        }
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -1,8 +1,6 @@
 ﻿using FBS.Application.Dto;
 using FBS.Application.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ActionConstraints;
 namespace FBS.API.Controllers
 {
     [Route("api/[controller]")]
@@ -16,7 +14,7 @@ namespace FBS.API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody]RegisterUserDto registerUserDto)
+        public async Task<IActionResult> Register([FromBody] RegisterUserDto registerUserDto)
         {
             await _authService.Register(registerUserDto);
             return Ok(new { message = "User registered successfully" });

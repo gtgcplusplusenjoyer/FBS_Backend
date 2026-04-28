@@ -5,6 +5,7 @@ namespace FBS.Core.Interfaces
     public interface IUserRepository
     {
         Task AddAsync(User user);
-        Task<User?> GetUserByEmail(string email);
+        Task<User?> GetUserByEmail(string email); 
+        Task SaveChangesAsync();
     }
 }

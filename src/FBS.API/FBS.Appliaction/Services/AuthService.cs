@@ -62,7 +62,7 @@ namespace FBS.Application.Services
             newUser.PasswordHash = passHash;
 
             await _users.AddAsync(newUser);
-            await _context.SaveChangesAsync();
+            await _users.SaveChangesAsync();
             return _jwtService.GenerateToken(newUser);
         }
     }

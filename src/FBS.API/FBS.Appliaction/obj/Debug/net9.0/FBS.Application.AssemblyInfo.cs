@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FBS.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7718000ad90353e0f1892f0051abfb253a5017b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9528af41e8e3ab5d0d5a5fb7fb8a8dbdb4f55514")]
 [assembly: System.Reflection.AssemblyProductAttribute("FBS.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FBS.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

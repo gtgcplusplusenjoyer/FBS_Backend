@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBS - Авторизация</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="logo">
+            <img src="logo.png" alt="FBS logo" onerror="this.src='https://via.placeholder.com/80x80?text=FBS'">
+        </div>
+
+        <h2 id="form-title">Войти в FBS</h2>
+
+        <form id="auth-form">
+            <div id="email-group" style="display: none;">
+                <input type="email" id="email" placeholder="Электронная почта">
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Имя пользователя" required>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Пароль" required>
+            </div>
+
+            <button type="submit" id="main-button">войти</button>
+            <button type="button" id="switch-mode">зарегистрироваться</button>
+        </form>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

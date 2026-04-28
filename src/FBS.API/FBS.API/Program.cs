@@ -1,8 +1,16 @@
 using FBS.API.Extensions;
 using FBS.Application.Extensions;
-
+ 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
@@ -15,15 +23,17 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
-
+ 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
-
+} 
+app.UseDefaultFiles();   // 1. ”казывает, что нужно искать index.html как страницу по умолчанию
+app.UseStaticFiles();    // 2. ¬ключает раздачу файлов из wwwroot
 app.UseHttpsRedirection();
- 
+
+app.UseCors();
 
 app.UseAuthentication();
 app.UseAuthorization();

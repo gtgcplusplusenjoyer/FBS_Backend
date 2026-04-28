@@ -141,3 +141,7 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Application.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Application.pdb
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.API.staticwebassets.runtime.json
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\compressed\3mb9lwdnpe-nvus5rpf42.gz
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\compressed\mn6ybybbth-jl6qdqy6qw.gz
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\compressed\7lufpvnpb1-pwqb6qhqdc.gz
