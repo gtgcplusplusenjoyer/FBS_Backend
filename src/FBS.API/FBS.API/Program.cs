@@ -29,12 +29,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 } 
-app.UseDefaultFiles();   // 1. ”казывает, что нужно искать index.html как страницу по умолчанию
-app.UseStaticFiles();    // 2. ¬ключает раздачу файлов из wwwroot
 app.UseHttpsRedirection();
 
 app.UseCors();
-
 app.UseAuthentication();
 app.UseAuthorization();
 

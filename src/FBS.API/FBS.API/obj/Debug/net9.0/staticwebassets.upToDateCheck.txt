@@ -1,6 +1,0 @@
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\wwwroot\index.html
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\wwwroot\styles\main.css
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\wwwroot\scripts\main.js
-wwwroot\index.html
-wwwroot\scripts\main.js
-wwwroot\styles\main.css

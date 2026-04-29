@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FBS.Appliaction\FBS.Application.csproj" />
+	  <ProjectReference Include="..\FBS.Application\FBS.Application.csproj" /> 
     <ProjectReference Include="..\FBS.Infrastructure\FBS.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -3833,8 +3833,8 @@
     },
     "FBS.Application/1.0.0": {
       "type": "project",
-      "path": "../FBS.Appliaction/FBS.Application.csproj",
-      "msbuildProject": "../FBS.Appliaction/FBS.Application.csproj"
+      "path": "../FBS.Application/FBS.Application.csproj",
+      "msbuildProject": "../FBS.Application/FBS.Application.csproj"
     },
     "FBS.Core/1.0.0": {
       "type": "project",
@@ -3891,8 +3891,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\FBS.Application.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\FBS.Application.csproj"
+            "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\FBS.Application.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\FBS.Application.csproj"
             },
             "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\FBS.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\FBS.Infrastructure.csproj"

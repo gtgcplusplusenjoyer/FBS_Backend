@@ -1,3 +1,15 @@
+/src/src/FBS.API/FBS.Core/bin/Debug/net9.0/FBS.Core.deps.json
+/src/src/FBS.API/FBS.Core/bin/Debug/net9.0/FBS.Core.dll
+/src/src/FBS.API/FBS.Core/bin/Debug/net9.0/FBS.Core.pdb
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/FBS.Core.GeneratedMSBuildEditorConfig.editorconfig
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/FBS.Core.AssemblyInfoInputs.cache
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/FBS.Core.AssemblyInfo.cs
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/FBS.Core.csproj.CoreCompileInputs.cache
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/FBS.Core.sourcelink.json
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/FBS.Core.dll
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/refint/FBS.Core.dll
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/FBS.Core.pdb
+/src/src/FBS.API/FBS.Core/obj/Debug/net9.0/ref/FBS.Core.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.Core\bin\Debug\net9.0\FBS.Core.deps.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.Core\bin\Debug\net9.0\FBS.Core.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.Core\bin\Debug\net9.0\FBS.Core.pdb
