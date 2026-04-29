@@ -15,7 +15,7 @@ namespace FBS.Infrastructure.Context
 
             modelBuilder.Entity<User>(entity =>
             {
-                entity.ToTable("Users", "users");
+                entity.ToTable("Users");
                 entity.HasKey(e => e.Id);
 
                 entity.Property(e => e.Name).IsRequired()
