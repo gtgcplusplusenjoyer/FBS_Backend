@@ -1,4 +1,5 @@
 ﻿using FBS.Core.Interfaces;
+using FBS.Core.Interfaces.External;
 using FBS.Infrastructure.Context;
 using FBS.Infrastructure.Repositories;
 using FBS.Infrastructure.Services.External;
@@ -20,7 +21,7 @@ namespace FBS.Application.Extensions
             });
 
             services.AddScoped<IJwtService, JwtService>();
-
+            services.AddScoped<IPasswordHasher, PasswordHasher>();
             return services;
         }
 

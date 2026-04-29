@@ -1,5 +1,5 @@
 ﻿using FBS.Core.Entities.User;
-using FBS.Core.Interfaces;
+using FBS.Core.Interfaces.External;
 using FBS.Infrastructure.Settings;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;

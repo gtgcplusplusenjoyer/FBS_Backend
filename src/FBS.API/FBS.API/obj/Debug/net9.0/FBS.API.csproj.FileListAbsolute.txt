@@ -283,3 +283,4 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.genruntimeconfig.cache
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\ref\FBS.API.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\BCrypt.Net-Next.dll

@@ -2,8 +2,8 @@
 using FBS.Application.Interfaces;
 using FBS.Core.Entities.User;
 using FBS.Core.Interfaces;
+using FBS.Core.Interfaces.External;
 using FBS.Infrastructure.Context;
-using Microsoft.AspNetCore.Identity;
 
 namespace FBS.Application.Services
 {
@@ -12,11 +12,13 @@ namespace FBS.Application.Services
         private readonly IUserRepository _users;
         private readonly FbsDbContext _context;
         private readonly IJwtService _jwtService;
-        public AuthService(IUserRepository userRepository, FbsDbContext fbsDbContext, IJwtService jwtService)
+        private readonly IPasswordHasher _passwordHasher;
+        public AuthService(IUserRepository userRepository, FbsDbContext fbsDbContext, IJwtService jwtService, IPasswordHasher passwordHasher)
         {
             _context = fbsDbContext;
             _users = userRepository;
             _jwtService = jwtService;
+            _passwordHasher = passwordHasher;
         }
 
         public async Task<string> Login(LoginUserDto loginUserDto)
@@ -33,10 +35,10 @@ namespace FBS.Application.Services
                 throw new Exception("User is not found");
             }
 
-            var result = new PasswordHasher<User>().VerifyHashedPassword(user, user.PasswordHash, loginUserDto.Password);
-            if (result == PasswordVerificationResult.Failed)
+            bool isValid = _passwordHasher.VerifyPassword(loginUserDto.Password, user.PasswordHash);
+            if (!isValid)
             {
-                throw new Exception("Error login");
+                throw new Exception("Invalid password");
             }
 
             return _jwtService.GenerateToken(user);
@@ -57,7 +59,7 @@ namespace FBS.Application.Services
                 Name = registerUserDto.UserName,
                 Email = registerUserDto.Email
             };
-            var passHash = new PasswordHasher<User>().HashPassword(newUser, registerUserDto.Password);
+            var passHash = _passwordHasher.HashPassword(newUser, registerUserDto.Password);
             newUser.PasswordHash = passHash;
 
             await _users.AddAsync(newUser);

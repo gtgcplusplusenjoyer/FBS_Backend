@@ -1,4 +1,4 @@
-﻿using FBS.Core.Interfaces;
+﻿using FBS.Core.Interfaces.External;
 using FBS.Infrastructure.Services.External;
 using FBS.Infrastructure.Settings;
 using Microsoft.Extensions.Configuration;
