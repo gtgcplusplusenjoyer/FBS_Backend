@@ -9,11 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBS.Core", "FBS.Core\FBS.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBS.Infrastructure", "FBS.Infrastructure\FBS.Infrastructure.csproj", "{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBS.Application", "FBS.Application\FBS.Application.csproj", "{DD15EDE7-3D87-49DD-8309-D4327E208862}"
 EndProject
 Global

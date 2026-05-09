@@ -1,0 +1,43 @@
+# .env файлы с секретами (никогда не коммитить!)
+.env
+*.env
+
+# Папки сборки .NET
+bin/
+obj/
+
+# Папки отладки
+Debug/
+Release/
+
+# Visual Studio пользовательские файлы
+.vs/
+*.user
+*.suo
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Логи
+*.log
+logs/
+Logs/
+TestResults/
+
+# Файлы БД
+*.db
+*.sqlite
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# appsettings с локальными секретами
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# Папка с бэкапами
+backup/

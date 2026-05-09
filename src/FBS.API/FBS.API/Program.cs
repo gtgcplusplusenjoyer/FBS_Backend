@@ -1,6 +1,7 @@
+using DotNetEnv;
 using FBS.API.Extensions;
 using FBS.Application.Extensions;
- 
+Env.Load();
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
@@ -24,7 +25,7 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
-await app.ApplyMigration();
+//await app.ApplyMigration(); // когда отдаем докер раскомментируем
 
 if (app.Environment.IsDevelopment())
 {

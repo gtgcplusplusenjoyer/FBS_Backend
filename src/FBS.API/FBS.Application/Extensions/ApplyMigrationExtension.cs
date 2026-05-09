@@ -14,14 +14,12 @@ namespace FBS.Application.Extensions
                 var dbContext = scope.ServiceProvider.GetRequiredService<FbsDbContext>();
 
                 try
-                {
-                    // Применяет все ожидающие миграции к базе данных
+                { 
                     await dbContext.Database.MigrateAsync();
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Ошибка при применении миграций: {ex.Message}");
-                    // Не прерываем запуск приложения, просто логируем ошибку
+                    Console.WriteLine($"Ошибка при применении миграций: {ex.Message}"); 
                 }
             }
             return app;
