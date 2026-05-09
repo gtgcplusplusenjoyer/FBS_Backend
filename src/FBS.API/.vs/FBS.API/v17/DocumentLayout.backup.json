@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|solutionrelative:fbs.api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C38B2EDC-579A-416E-856E-649C73A7BDB4}|FBS.API\\FBS.API.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.api\\fbs.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -206,7 +206,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,13 +218,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\.env",
               "RelativeDocumentMoniker": "FBS.API\\.env",
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\.env",
               "RelativeToolTip": "FBS.API\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-05-09T19:38:51.195Z",
               "EditorCaption": ""
@@ -239,8 +239,7 @@
               "RelativeToolTip": "FBS.Core\\Entities\\Training\\Training.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T14:41:10.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T14:41:10.981Z"
             },
             {
               "$type": "Document",
@@ -252,8 +251,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:40:18.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:40:18.167Z"
             },
             {
               "$type": "Document",
@@ -265,8 +263,7 @@
               "RelativeToolTip": "FBS.Core\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:34:52.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:34:52.943Z"
             },
             {
               "$type": "Document",
@@ -278,8 +275,7 @@
               "RelativeToolTip": "FBS.Core\\Entities\\User\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:33:25.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:33:25.466Z"
             },
             {
               "$type": "Document",
@@ -291,8 +287,7 @@
               "RelativeToolTip": "FBS.API\\FBS.API.csproj",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-25T16:52:12.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:52:12.321Z"
             },
             {
               "$type": "Document",
@@ -302,23 +297,27 @@
               "RelativeDocumentMoniker": "FBS.API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.Development.json",
               "RelativeToolTip": "FBS.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-25T16:39:31.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Program.cs",
               "RelativeDocumentMoniker": "FBS.API\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Program.cs",
               "RelativeToolTip": "FBS.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T16:52:27Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -330,8 +329,7 @@
               "RelativeToolTip": "FBS.Core\\Entities\\Training\\Exercise.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T14:43:28.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T14:43:28.7Z"
             },
             {
               "$type": "Document",
@@ -343,12 +341,7 @@
               "RelativeToolTip": "FBS.Core\\Enums\\WorkoutTypes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T14:46:52.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "WhenOpened": "2026-05-09T14:46:52.345Z"
             },
             {
               "$type": "Document",
@@ -360,8 +353,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\Settings\\AuthSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:06:24.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T17:06:24.592Z"
             },
             {
               "$type": "Document",
@@ -373,8 +365,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\Services\\External\\PasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T15:25:19.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T15:25:19.463Z"
             },
             {
               "$type": "Document",
@@ -386,8 +377,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\Services\\External\\JwtService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:05:22.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T17:05:22.556Z"
             },
             {
               "$type": "Document",
@@ -399,8 +389,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\Context\\FbsDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:36:22.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:36:22.301Z"
             },
             {
               "$type": "Document",
@@ -412,8 +401,7 @@
               "RelativeToolTip": "FBS.API\\Extensions\\SwaggerExtension.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T19:26:57.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T19:26:57.111Z"
             },
             {
               "$type": "Document",
@@ -425,8 +413,7 @@
               "RelativeToolTip": "FBS.Core\\Interfaces\\External\\IJwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:05:02.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T17:05:02.08Z"
             },
             {
               "$type": "Document",
@@ -438,8 +425,7 @@
               "RelativeToolTip": "FBS.Core\\Interfaces\\External\\IPasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T15:24:46.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T15:24:46.824Z"
             },
             {
               "$type": "Document",
@@ -451,8 +437,7 @@
               "RelativeToolTip": "FBS.Application\\Extensions\\AuthExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:56:26.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:56:26.177Z"
             },
             {
               "$type": "Document",
@@ -464,8 +449,7 @@
               "RelativeToolTip": "FBS.Application\\Extensions\\AddApplicationExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:54:06.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:54:06.784Z"
             },
             {
               "$type": "Document",
@@ -477,8 +461,7 @@
               "RelativeToolTip": "FBS.Application\\Extensions\\AddAuthenticationAndJwtExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:54:23.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:54:23.985Z"
             },
             {
               "$type": "Document",
@@ -490,8 +473,7 @@
               "RelativeToolTip": "FBS.Application\\Extensions\\AddInfrastructureExtension.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:54:43.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:54:43.915Z"
             },
             {
               "$type": "Document",
@@ -503,8 +485,7 @@
               "RelativeToolTip": "FBS.Application\\Extensions\\AddValidationExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:55:05.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:55:05.719Z"
             },
             {
               "$type": "Document",
@@ -516,8 +497,7 @@
               "RelativeToolTip": "FBS.Application\\Extensions\\ApplyMigrationExtension.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAiwBUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T20:47:33.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T20:47:33.636Z"
             },
             {
               "$type": "Document",
@@ -529,8 +509,7 @@
               "RelativeToolTip": "FBS.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-25T16:39:09.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:39:09.234Z"
             },
             {
               "$type": "Document",
@@ -542,8 +521,7 @@
               "RelativeToolTip": "FBS.Application\\Dto\\RegisterUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:50:54.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:50:54.61Z"
             },
             {
               "$type": "Document",
@@ -555,8 +533,7 @@
               "RelativeToolTip": "FBS.Application\\Dto\\LoginUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:50:20.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:50:20.193Z"
             },
             {
               "$type": "Document",
@@ -568,8 +545,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\FBS.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-25T16:50:22.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:50:22.691Z"
             },
             {
               "$type": "Document",
@@ -581,8 +557,7 @@
               "RelativeToolTip": "FBS.Application\\FBS.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-29T11:00:33.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T11:00:33.758Z"
             },
             {
               "$type": "Document",
@@ -594,8 +569,7 @@
               "RelativeToolTip": "FBS.API\\Controllers\\Auth.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:53:20.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T17:53:20.827Z"
             },
             {
               "$type": "Document",
@@ -607,8 +581,7 @@
               "RelativeToolTip": "FBS.Application\\Services\\AuthService.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:51:31.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:51:31.463Z"
             },
             {
               "$type": "Document",
@@ -620,8 +593,7 @@
               "RelativeToolTip": "FBS.Application\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:51:23.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:51:23.37Z"
             },
             {
               "$type": "Document",
@@ -633,8 +605,7 @@
               "RelativeToolTip": "FBS.Core\\Entities\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:33:13.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:33:13.906Z"
             },
             {
               "$type": "Document",
@@ -646,8 +617,7 @@
               "RelativeToolTip": "FBS.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-28T20:04:59.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T20:04:59.212Z"
             },
             {
               "$type": "Document",
@@ -659,8 +629,7 @@
               "RelativeToolTip": "FBS.Application\\Validators\\LoginUserDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:59:03.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:59:03.701Z"
             },
             {
               "$type": "Document",
@@ -672,8 +641,7 @@
               "RelativeToolTip": "FBS.API\\FBS.API.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-04-25T20:36:22.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T20:36:22.254Z"
             },
             {
               "$type": "Document",
@@ -685,8 +653,7 @@
               "RelativeToolTip": "FBS.Application\\Validators\\RegisterUserDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:59:22.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T10:59:22.048Z"
             },
             {
               "$type": "Document",
@@ -698,8 +665,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\Migrations\\20260425165445_Initial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:54:45.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:54:45.171Z"
             },
             {
               "$type": "Document",
@@ -832,8 +798,7 @@
               "RelativeToolTip": "FBS.Core\\FBS.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-25T16:32:51.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:32:51.122Z"
             }
           ]
         }

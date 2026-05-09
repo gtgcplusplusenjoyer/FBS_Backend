@@ -1,8 +1,16 @@
 using DotNetEnv;
 using FBS.API.Extensions;
 using FBS.Application.Extensions;
-Env.Load();
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+if (!builder.Environment.IsDevelopment())
+{
+    Env.Load(); 
+    builder.Configuration.AddEnvironmentVariables();
+}
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -25,13 +33,13 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
-//await app.ApplyMigration(); // когда отдаем докер раскомментируем
+await app.ApplyMigration(); // когда отдаем докер раскомментируем
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-} 
+}
 app.UseHttpsRedirection();
 
 app.UseCors();
