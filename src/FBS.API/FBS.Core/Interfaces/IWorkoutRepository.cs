@@ -10,6 +10,6 @@ namespace FBS.Core.Interfaces
         Task AddAsync(Workout workout);
         void Update(Workout workout);
         void Delete(Workout workout);
-        Task SaveChangesAsync();
+        Task SaveChangesAsync(CancellationToken cancellationToken);
     }
 }
