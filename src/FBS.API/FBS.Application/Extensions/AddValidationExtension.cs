@@ -1,4 +1,4 @@
-﻿using FBS.Application.Dto;
+﻿using FBS.Application.Dto.User;
 using FBS.Application.Validators;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;

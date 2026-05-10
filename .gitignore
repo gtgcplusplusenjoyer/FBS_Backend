@@ -41,3 +41,7 @@ secrets.json
 
 # Папка с бэкапами
 backup/
+# appsettings
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/appsettings.Local.json

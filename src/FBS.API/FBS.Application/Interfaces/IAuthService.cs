@@ -1,4 +1,4 @@
-﻿using FBS.Application.Dto;
+﻿using FBS.Application.Dto.User;
 
 namespace FBS.Application.Interfaces
 {

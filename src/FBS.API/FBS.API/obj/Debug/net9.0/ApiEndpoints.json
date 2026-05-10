@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "loginUserDto",
-        "Type": "FBS.Application.Dto.LoginUserDto",
+        "Type": "FBS.Application.Dto.User.LoginUserDto",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "registerUserDto",
-        "Type": "FBS.Application.Dto.RegisterUserDto",
+        "Type": "FBS.Application.Dto.User.RegisterUserDto",
         "IsRequired": true
       }
     ],

@@ -1,4 +1,4 @@
-﻿using FBS.Application.Dto;
+﻿using FBS.Application.Dto.User;
 using FluentValidation;
 
 namespace FBS.Application.Validators

@@ -1,4 +1,4 @@
-﻿using FBS.Application.Dto;
+﻿using FBS.Application.Dto.User;
 using FBS.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 namespace FBS.API.Controllers

@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FBS.Core.Enums
+﻿namespace FBS.Core.Enums
 {
-    public class WorkoutTypes
+    public enum WorkoutType
     {
+        Other = 0,
+        Running = 1,
+        Walking = 2,
+        Gym = 3,
+        Yoga = 4,
+        Cycling = 5,
+        Swimming = 6,
+        Cardio = 7, 
     }
 }
