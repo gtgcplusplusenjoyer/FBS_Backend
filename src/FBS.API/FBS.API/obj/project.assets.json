@@ -2592,6 +2592,7 @@
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
           "FBS.Core": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.1",
           "System.IdentityModel.Tokens.Jwt": "8.0.1"

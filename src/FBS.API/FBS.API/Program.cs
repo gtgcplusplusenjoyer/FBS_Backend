@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 if (!builder.Environment.IsDevelopment())
 {
-    Env.Load(); 
+    Env.Load();
     builder.Configuration.AddEnvironmentVariables();
 }
 
