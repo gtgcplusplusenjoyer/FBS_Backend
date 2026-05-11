@@ -140,14 +140,6 @@
 /src/src/FBS.API/FBS.API/obj/Debug/net9.0/FBS.API.pdb
 /src/src/FBS.API/FBS.API/obj/Debug/net9.0/FBS.API.genruntimeconfig.cache
 /src/src/FBS.API/FBS.API/obj/Debug/net9.0/ref/FBS.API.dll
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.csproj.AssemblyReference.cache
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.AssemblyInfoInputs.cache
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.AssemblyInfo.cs
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.csproj.CoreCompileInputs.cache
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.sourcelink.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\appsettings.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.API.staticwebassets.endpoints.json
@@ -156,6 +148,9 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.API
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.API.runtimeconfig.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.API.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.API.pdb
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\DotNetEnv.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FluentValidation.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Humanizer.dll
@@ -173,7 +168,11 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microso
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
@@ -186,6 +185,7 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Npgsql.
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\SharpGrip.FluentValidation.AutoValidation.Mvc.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\SharpGrip.FluentValidation.AutoValidation.Shared.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Superpower.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -195,6 +195,7 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.Composition.Hosting.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.Composition.Runtime.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -267,6 +268,15 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Inf
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Application.pdb
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Infrastructure.pdb
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\FBS.Core.pdb
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.csproj.AssemblyReference.cache
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.AssemblyInfoInputs.cache
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.AssemblyInfo.cs
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.sourcelink.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -282,7 +292,3 @@ C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\refint\
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.pdb
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.genruntimeconfig.cache
 C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\ref\FBS.API.dll
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\obj\Debug\net9.0\FBS.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\DotNetEnv.dll
-C:\Users\User\Documents\FBS_Project\src\FBS.API\FBS.API\bin\Debug\net9.0\Superpower.dll

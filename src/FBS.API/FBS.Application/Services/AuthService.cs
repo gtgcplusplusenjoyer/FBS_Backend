@@ -9,13 +9,11 @@ namespace FBS.Application.Services
 {
     public class AuthService : IAuthService
     {
-        private readonly IUserRepository _users;
-        private readonly FbsDbContext _context;
+        private readonly IUserRepository _users; 
         private readonly IJwtService _jwtService;
         private readonly IPasswordHasher _passwordHasher;
-        public AuthService(IUserRepository userRepository, FbsDbContext fbsDbContext, IJwtService jwtService, IPasswordHasher passwordHasher)
-        {
-            _context = fbsDbContext;
+        public AuthService(IUserRepository userRepository,  IJwtService jwtService, IPasswordHasher passwordHasher)
+        { 
             _users = userRepository;
             _jwtService = jwtService;
             _passwordHasher = passwordHasher;
