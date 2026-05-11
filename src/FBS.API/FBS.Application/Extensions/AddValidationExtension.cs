@@ -1,5 +1,5 @@
 ﻿using FBS.Application.Dto.User;
-using FBS.Application.Validators;
+using FBS.Application.Validators.User;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;

@@ -3,7 +3,7 @@
 namespace FBS.Application.Dto.Workout
 {
     public record CreateWorkoutDto(
-        DateTime Date,
+        DateOnly Date,
         string Title,
         WorkoutType Type,
         string? Notes,

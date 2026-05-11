@@ -8,6 +8,9 @@ namespace FBS.Application.Mapper
     {
         public WorkoutMapper()
         {
+            CreateMap<DateOnly, DateTime>().ConvertUsing(src => src.ToDateTime(TimeOnly.MinValue, DateTimeKind.Utc));
+            CreateMap<DateTime, DateOnly>().ConvertUsing(src => DateOnly.FromDateTime(src));
+
             CreateMap<CreateWorkoutDto, Workout>().
                 ForMember(w => w.Exercises, opt => opt.MapFrom(src => MapExercises(src.Exercises)));
 

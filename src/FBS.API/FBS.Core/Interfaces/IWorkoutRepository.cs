@@ -10,6 +10,7 @@ namespace FBS.Core.Interfaces
         Task AddAsync(Workout workout);
         void Update(Workout workout);
         void Delete(Workout workout);
+        Task<List<Workout>> GetByUserIdAndDateRangeAsync(Guid userId, DateTime startDate, DateTime endDate, CancellationToken cancellationToken);
         Task SaveChangesAsync(CancellationToken cancellationToken);
     }
 }

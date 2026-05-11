@@ -6,7 +6,7 @@ namespace FBS.Application.Dto.Workout
     public record WorkoutResponseDto(
         Guid Id,
         Guid UserId,
-        DateTime Date,
+        DateOnly Date,
         string Title,
         string? Notes,
         WorkoutType Type,

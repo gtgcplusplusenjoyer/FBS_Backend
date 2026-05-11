@@ -22,6 +22,7 @@ namespace FBS.Application.Services
         {
             var newWorkout = _mapper.Map<Workout>(workout);
 
+            newWorkout.Date = workout.Date.ToDateTime(TimeOnly.MinValue, DateTimeKind.Utc);
             newWorkout.Id = Guid.NewGuid();
             newWorkout.UserId = userId;
             newWorkout.CreatedAt = DateTime.UtcNow;
@@ -62,31 +63,35 @@ namespace FBS.Application.Services
             return _mapper.Map<WorkoutResponseDto>(workout);
         }
 
-        public async Task<List<WorkoutResponseDto>> GetWorkoutsByDateAsync(Guid userId, DateTime date, CancellationToken cancellationToken)
-        {
-            var workouts = await _workouts.GetByUserIdAndDateAsync(userId, date);
+        public async Task<List<WorkoutResponseDto>> GetWorkoutsByDateAsync(Guid userId, DateOnly date, CancellationToken cancellationToken)
+        { 
+            var startDate = date.ToDateTime(TimeOnly.MinValue, DateTimeKind.Utc);
+            var endDate = date.ToDateTime(TimeOnly.MaxValue, DateTimeKind.Utc);
+
+            var workouts = await _workouts.GetByUserIdAndDateRangeAsync(userId, startDate, endDate, cancellationToken);
             return workouts.Select(w => _mapper.Map<WorkoutResponseDto>(w)).ToList();
         }
 
-        public async Task<WorkoutResponseDto> UpdateWorkoutAsync(Guid id, Guid userId, UpdateWorkoutDto workout, CancellationToken cancellationToken)
+        public async Task<WorkoutResponseDto?> UpdateWorkoutAsync(Guid id, Guid userId, UpdateWorkoutDto workout, CancellationToken cancellationToken)
         {
-            var newWorkout = await _workouts.GetByIdAsync(id);
+            var existingWorkout = await _workouts.GetByIdAsync(id);
 
-            if (newWorkout == null || newWorkout.UserId != userId)
+            if (existingWorkout == null || existingWorkout.UserId != userId)
             {
                 return null;
             }
+             
+            existingWorkout.Date = workout.Date.ToDateTime(TimeOnly.MinValue, DateTimeKind.Utc);
+            existingWorkout.Title = workout.Title;
+            existingWorkout.Notes = workout.Notes;
+            existingWorkout.Type = workout.Type;
+            existingWorkout.Exercises = WorkoutMapper.MapExercises(workout.Exercises);
+            existingWorkout.UpdatedAt = DateTime.UtcNow;
 
-            newWorkout.Date = workout.Date;
-            newWorkout.Notes = workout.Notes;
-            newWorkout.Title = workout.Title;
-            newWorkout.Type = workout.Type;
-            newWorkout.Exercises = WorkoutMapper.MapExercises(workout.Exercises);
-            newWorkout.UpdatedAt = DateTime.UtcNow;
-
-            _workouts.Update(newWorkout);
+            _workouts.Update(existingWorkout);
             await _workouts.SaveChangesAsync(cancellationToken);
-            return _mapper.Map<WorkoutResponseDto>(newWorkout);
+
+            return _mapper.Map<WorkoutResponseDto>(existingWorkout);
         }
     }
 }

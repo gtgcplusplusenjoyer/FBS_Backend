@@ -6,6 +6,7 @@ using FBS.Infrastructure.Services.External;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Npgsql; 
 
 namespace FBS.Application.Extensions
 {
@@ -16,9 +17,14 @@ namespace FBS.Application.Extensions
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IWorkoutRepository, WorkoutRepository>();
 
+            var connectionString = configuration.GetConnectionString(nameof(FbsDbContext));
+            var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString);
+            dataSourceBuilder.EnableDynamicJson();  
+            var dataSource = dataSourceBuilder.Build();
+
             services.AddDbContext<FbsDbContext>(options =>
             {
-                options.UseNpgsql(configuration.GetConnectionString(nameof(FbsDbContext)));
+                options.UseNpgsql(dataSource);  
             });
 
             services.AddScoped<IJwtService, JwtService>();

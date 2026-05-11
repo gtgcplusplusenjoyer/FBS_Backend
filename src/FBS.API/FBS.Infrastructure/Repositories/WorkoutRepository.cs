@@ -37,7 +37,13 @@ namespace FBS.Infrastructure.Repositories
                 .OrderBy(w => w.Date)
                 .ToListAsync();
         }
-
+        public async Task<List<Workout>> GetByUserIdAndDateRangeAsync(Guid userId, DateTime startDate, DateTime endDate, CancellationToken cancellationToken)
+        {
+            return await _workouts
+                .Where(w => w.UserId == userId && w.Date >= startDate && w.Date <= endDate)
+                .OrderBy(w => w.Date)
+                .ToListAsync(cancellationToken);
+        }
         public async Task<List<Workout>> GetByUserIdAsync(Guid userId)
         {
             return await _workouts.Where(w => w.UserId == userId)

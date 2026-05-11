@@ -1,7 +1,7 @@
 ﻿using FBS.Application.Dto.User;
 using FluentValidation;
 
-namespace FBS.Application.Validators
+namespace FBS.Application.Validators.User
 {
     public class RegisterUserDtoValidator : AbstractValidator<RegisterUserDto>
     {
