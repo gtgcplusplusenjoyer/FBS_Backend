@@ -11,17 +11,21 @@ namespace FBS.Application.Extensions
         {
             using (var scope = app.Services.CreateScope())
             {
+
                 var dbContext = scope.ServiceProvider.GetRequiredService<FbsDbContext>();
 
                 try
                 {
                     await dbContext.Database.MigrateAsync();
                 }
+
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Ошибка при применении миграций: {ex.Message}");
                 }
+
             }
+
             return app;
         }
     }

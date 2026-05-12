@@ -13,6 +13,7 @@ namespace FBS.Application.Extensions
             services.AddScoped<IJwtService, JwtService>();
             services.Configure<AuthSettings>(configuration.GetSection("AuthSettings"));
             services.AddAuth(configuration);
+
             return services;
         }
     }

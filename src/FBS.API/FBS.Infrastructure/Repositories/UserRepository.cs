@@ -26,6 +26,7 @@ namespace FBS.Infrastructure.Repositories
         { 
             return await _users.FirstOrDefaultAsync(x=>x.Email== email);
         }
+
         public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();

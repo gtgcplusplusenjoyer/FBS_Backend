@@ -29,6 +29,7 @@ namespace FBS.Application.Extensions
 
             services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
+
             return services;
         }
 

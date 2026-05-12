@@ -30,6 +30,7 @@ namespace FBS.Application.Extensions
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(authSettings.SecretKey))
                     };
                 });
+
             return services;
         }
     }

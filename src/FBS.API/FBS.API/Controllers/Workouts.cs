@@ -1,4 +1,5 @@
-﻿using FBS.Application.Dto.Workout;
+﻿using FBS.API.Extensions;
+using FBS.Application.Dto.Workout;
 using FBS.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -20,28 +21,17 @@ namespace FBS.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetWorkoutsByDate([FromQuery] DateOnly date,CancellationToken cancellationToken)
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userIdClaim))
-            {
-                return Unauthorized(new { message = "User not authenticated" });
-            }
-
-            var userId = Guid.Parse(userIdClaim);
+            var userId = User.GetUserId()!.Value;
 
             var workouts = await _service.GetWorkoutsByDateAsync(userId, date, cancellationToken);
+
             return Ok(workouts);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetWorkoutsById(Guid id, CancellationToken cancellationToken)
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userIdClaim))
-            {
-                return Unauthorized(new { message = "User not authenticated" });
-            }
-
-            var userId = Guid.Parse(userIdClaim);
+            var userId = User.GetUserId()!.Value;
 
             var workout = await _service.GetWorkoutByIdAsync(id,userId,cancellationToken);
 
@@ -54,13 +44,7 @@ namespace FBS.API.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateWorkout([FromBody] CreateWorkoutDto workoutDto, CancellationToken cancellationToken)
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userIdClaim))
-            {
-                return Unauthorized(new { message = "User not authenticated" });
-            }
-
-            var userId = Guid.Parse(userIdClaim);
+            var userId = User.GetUserId()!.Value;
 
             if (workoutDto == null)
             {
@@ -77,13 +61,7 @@ namespace FBS.API.Controllers
             [FromBody] UpdateWorkoutDto workoutDto,
             CancellationToken cancellationToken)
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userIdClaim))
-            {
-                return Unauthorized(new { message = "User not authenticated" });
-            }
-
-            var userId = Guid.Parse(userIdClaim);
+            var userId = User.GetUserId()!.Value;
 
             var workout = await _service.UpdateWorkoutAsync(id,userId,workoutDto,cancellationToken);
 
@@ -98,13 +76,8 @@ namespace FBS.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteWorkout(Guid id, CancellationToken cancellationToken)
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (string.IsNullOrEmpty(userIdClaim))
-            {
-                return Unauthorized(new { message = "User not authenticated" });
-            }
+            var userId = User.GetUserId()!.Value;
 
-            var userId = Guid.Parse(userIdClaim);
             var workout = await _service.DeleteWorkoutAsync(id,userId,cancellationToken);
 
             if (!workout)
@@ -113,7 +86,6 @@ namespace FBS.API.Controllers
             }
 
             return NoContent();
-        }
-
+        } 
     }
 }

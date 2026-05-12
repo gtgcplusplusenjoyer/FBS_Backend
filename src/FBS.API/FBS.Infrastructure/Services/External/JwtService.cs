@@ -35,6 +35,7 @@ namespace FBS.Infrastructure.Services.External
                 claims: claims,
                 signingCredentials: credentials
             );
+
             return new JwtSecurityTokenHandler().WriteToken(token); 
         }
     }

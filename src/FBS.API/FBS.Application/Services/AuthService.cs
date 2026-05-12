@@ -4,6 +4,7 @@ using FBS.Core.Entities.User;
 using FBS.Core.Interfaces;
 using FBS.Core.Interfaces.External;
 using FBS.Infrastructure.Context;
+using System.Threading;
 
 namespace FBS.Application.Services
 {
@@ -34,6 +35,7 @@ namespace FBS.Application.Services
             }
 
             bool isValid = _passwordHasher.VerifyPassword(loginUserDto.Password, user.PasswordHash);
+
             if (!isValid)
             {
                 throw new Exception("Invalid password");
@@ -46,6 +48,7 @@ namespace FBS.Application.Services
         public async Task<string> Register(RegisterUserDto registerUserDto)
         {
             var user = await _users.GetUserByEmail(registerUserDto.Email);
+
             if (user != null)
             {
                 throw new InvalidOperationException("User with this email already exists");
@@ -57,11 +60,14 @@ namespace FBS.Application.Services
                 Name = registerUserDto.UserName,
                 Email = registerUserDto.Email
             };
+
             var passHash = _passwordHasher.HashPassword(newUser, registerUserDto.Password);
             newUser.PasswordHash = passHash;
 
             await _users.AddAsync(newUser);
+
             await _users.SaveChangesAsync();
+
             return _jwtService.GenerateToken(newUser);
         }
     }

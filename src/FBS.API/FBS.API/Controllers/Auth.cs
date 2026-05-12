@@ -17,24 +17,26 @@ namespace FBS.API.Controllers
         public async Task<IActionResult> Register([FromBody] RegisterUserDto registerUserDto)
         {
             await _authService.Register(registerUserDto);
+
             return Ok(new { message = "User registered successfully" });
         }
 
         [HttpPost("login")]
         public async Task<ActionResult<string>> Login([FromBody] LoginUserDto loginUserDto)
         {
+
             try
             {
                 var token = await _authService.Login(loginUserDto);
                 return Ok(new { token, message = "Login successful" });
             }
+
             catch (Exception ex)
             {
                 return Unauthorized(new { error = ex.Message });
             }
+
         }
-
-
 
     }
 }

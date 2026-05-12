@@ -37,6 +37,7 @@ namespace FBS.Infrastructure.Repositories
                 .OrderBy(w => w.Date)
                 .ToListAsync();
         }
+
         public async Task<List<Workout>> GetByUserIdAndDateRangeAsync(Guid userId, DateTime startDate, DateTime endDate, CancellationToken cancellationToken)
         {
             return await _workouts
@@ -44,6 +45,7 @@ namespace FBS.Infrastructure.Repositories
                 .OrderBy(w => w.Date)
                 .ToListAsync(cancellationToken);
         }
+
         public async Task<List<Workout>> GetByUserIdAsync(Guid userId)
         {
             return await _workouts.Where(w => w.UserId == userId)
@@ -53,7 +55,7 @@ namespace FBS.Infrastructure.Repositories
 
         public async Task SaveChangesAsync(CancellationToken cancellationToken)
         {
-            await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync(cancellationToken);
         }
 
         public void Update(Workout workout)

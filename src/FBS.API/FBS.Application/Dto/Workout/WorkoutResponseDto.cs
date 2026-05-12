@@ -1,5 +1,4 @@
-﻿using FBS.Core.Entities.Training;
-using FBS.Core.Enums;
+﻿using FBS.Core.Enums;
 
 namespace FBS.Application.Dto.Workout
 {
@@ -10,7 +9,7 @@ namespace FBS.Application.Dto.Workout
         string Title,
         string? Notes,
         WorkoutType Type,
-        List<Exercise>? Exercises,
+        List<ExerciseDto>? Exercises,
         DateTime CreatedAt,
         DateTime UpdatedAt
         );
