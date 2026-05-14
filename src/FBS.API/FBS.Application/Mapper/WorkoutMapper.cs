@@ -20,6 +20,7 @@ namespace FBS.Application.Mapper
             CreateMap<UpdateWorkoutDto, Workout>().
                 ForMember(w => w.Exercises, opt => opt.MapFrom(stc => MapExercises(stc.Exercises)));
 
+            CreateMap<Exercise, ExerciseDto>().ReverseMap();
         }
 
 

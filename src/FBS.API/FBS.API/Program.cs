@@ -32,7 +32,7 @@ builder.Services.AddSwaggerWithJwtAuth();
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
-var app = builder.Build();
+var app = builder.Build(); 
 
 await app.ApplyMigration(); // когда отдаем докер раскомментируем
 
