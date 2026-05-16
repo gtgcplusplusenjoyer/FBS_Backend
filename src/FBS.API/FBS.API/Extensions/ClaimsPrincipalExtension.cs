@@ -9,5 +9,6 @@ namespace FBS.API.Extensions
             var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             return Guid.TryParse(userIdClaim, out var userId) ? userId : null;
         }
+
     }
 }
