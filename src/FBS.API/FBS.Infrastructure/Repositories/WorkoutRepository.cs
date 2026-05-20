@@ -35,6 +35,7 @@ namespace FBS.Infrastructure.Repositories
         {
             return await _workouts.Where(w => w.UserId == userId && w.Date.Date == date)
                 .OrderBy(w => w.Date)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -42,6 +43,7 @@ namespace FBS.Infrastructure.Repositories
         {
             return await _workouts
                 .Where(w => w.UserId == userId && w.Date >= startDate && w.Date <= endDate)
+                .AsNoTracking()
                 .OrderBy(w => w.Date)
                 .ToListAsync(cancellationToken);
         }
@@ -49,6 +51,7 @@ namespace FBS.Infrastructure.Repositories
         public async Task<List<Workout>> GetByUserIdAsync(Guid userId)
         {
             return await _workouts.Where(w => w.UserId == userId)
+                .AsNoTracking()
                 .OrderByDescending(w => w.Date)
                 .ToListAsync();
         }
