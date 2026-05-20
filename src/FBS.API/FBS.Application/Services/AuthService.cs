@@ -1,20 +1,19 @@
 ﻿using FBS.Application.Dto.User;
 using FBS.Application.Interfaces;
 using FBS.Core.Entities.User;
+using FBS.Core.Enums;
 using FBS.Core.Interfaces;
 using FBS.Core.Interfaces.External;
-using FBS.Infrastructure.Context;
-using System.Threading;
 
 namespace FBS.Application.Services
 {
     public class AuthService : IAuthService
     {
-        private readonly IUserRepository _users; 
+        private readonly IUserRepository _users;
         private readonly IJwtService _jwtService;
         private readonly IPasswordHasher _passwordHasher;
-        public AuthService(IUserRepository userRepository,  IJwtService jwtService, IPasswordHasher passwordHasher)
-        { 
+        public AuthService(IUserRepository userRepository, IJwtService jwtService, IPasswordHasher passwordHasher)
+        {
             _users = userRepository;
             _jwtService = jwtService;
             _passwordHasher = passwordHasher;
@@ -58,7 +57,8 @@ namespace FBS.Application.Services
             {
                 Id = Guid.NewGuid(),
                 Name = registerUserDto.UserName,
-                Email = registerUserDto.Email
+                Email = registerUserDto.Email,
+                UserRole = RolesTypes.Visitor
             };
 
             var passHash = _passwordHasher.HashPassword(newUser, registerUserDto.Password);

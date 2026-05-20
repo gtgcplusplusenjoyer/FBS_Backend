@@ -1,5 +1,6 @@
 ﻿using FBS.Core.Entities.Training;
 using FBS.Core.Entities.User;
+using FBS.Core.Enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace FBS.Infrastructure.Context
@@ -31,6 +32,11 @@ namespace FBS.Infrastructure.Context
                 entity.Property(e => e.PasswordHash)
                    .IsRequired()
                    .HasMaxLength(256);
+
+                entity.Property(e => e.UserRole)
+                    .HasConversion<string>()
+                    .HasMaxLength(20)
+                    .HasDefaultValue(RolesTypes.Visitor);
             });
 
             modelBuilder.Entity<Workout>(entity =>
