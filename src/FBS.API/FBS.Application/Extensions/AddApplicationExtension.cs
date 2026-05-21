@@ -9,7 +9,7 @@ namespace FBS.Application.Extensions
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddAutoMapper(cfg => { }, typeof(WorkoutMapper));
+            services.AddAutoMapper(cfg => { }, typeof(WorkoutMapper), typeof(UserMapper));
             services.AddService();
 
             return services;
@@ -20,6 +20,7 @@ namespace FBS.Application.Extensions
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IWorkoutService, WorkoutService>();
             services.AddScoped<IChatAuthorizationService, ChatAuthorizationService>();
+            services.AddScoped<IAdminService, AdminService>();
 
             return services;
         }

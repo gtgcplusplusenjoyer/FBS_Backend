@@ -7,5 +7,7 @@ namespace FBS.Core.Interfaces
         Task AddAsync(User user);
         Task<User?> GetUserByEmail(string email); 
         Task SaveChangesAsync();
+        Task<List<User>?> GetAllUsersAsync();
+        Task<User?> GetByIdAsync(Guid id);
     }
 }

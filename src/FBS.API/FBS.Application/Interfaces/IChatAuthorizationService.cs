@@ -8,7 +8,7 @@ namespace FBS.Application.Interfaces
         bool CanSendMessage(string userRole);
         bool CanDeleteMessage(string userRole);
         bool CanClearChat(string userRole);
-        string GetErrorMessage(string userRole);
+        string GetErrorMessage(string action);
         string GetUserRole(ClaimsPrincipal user);
     }
 }

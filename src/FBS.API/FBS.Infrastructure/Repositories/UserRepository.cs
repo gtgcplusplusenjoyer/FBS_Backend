@@ -31,5 +31,18 @@ namespace FBS.Infrastructure.Repositories
         {
             await _context.SaveChangesAsync();
         }
+
+        public async Task<List<User>?> GetAllUsersAsync()
+        {
+            return await _users
+                .AsNoTracking()
+                .OrderBy(u=>u.Name)
+                .ToListAsync();
+        }
+
+        public async Task<User?> GetByIdAsync(Guid id)
+        {
+            return await _users.FirstAsync(x=>x.Id==id);
+        }
     }
 }

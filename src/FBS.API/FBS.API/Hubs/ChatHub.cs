@@ -10,7 +10,14 @@ namespace FBS.API.Hubs
         private readonly IChatAuthorizationService _chatService = chatService;
         public async Task SendMessage(string user, string message)
         {
-            
+            var userRole = _chatService.GetUserRole(Context.User);
+
+            if (!_chatService.CanSendMessage(userRole))
+            {
+                await Clients.Caller.SendAsync("Error", _chatService.GetErrorMessage("send"));
+                return;
+            }
+
             await Clients.Others.SendAsync("ReceiveMessage", user,message);
         }
         public async Task JoinRoom(string RoomName)
@@ -32,6 +39,7 @@ namespace FBS.API.Hubs
             var user = Context.User?.Identity?.Name ?? "Unknown";
             await Clients.All.SendAsync("UserDisconnected", $"{user} отключился от чата");
             await base.OnDisconnectedAsync(exception);
-        }
+        } 
+
     }
 }
