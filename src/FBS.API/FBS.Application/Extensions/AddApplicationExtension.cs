@@ -19,6 +19,7 @@ namespace FBS.Application.Extensions
         {
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IWorkoutService, WorkoutService>();
+            services.AddScoped<IChatAuthorizationService, ChatAuthorizationService>();
 
             return services;
         }

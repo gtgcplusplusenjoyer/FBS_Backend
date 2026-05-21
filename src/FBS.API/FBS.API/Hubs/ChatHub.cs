@@ -1,13 +1,16 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using FBS.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 
 namespace FBS.API.Hubs
 {
     [Authorize]
-    public class ChatHub : Hub
+    public class ChatHub(IChatAuthorizationService chatService) : Hub
     {
+        private readonly IChatAuthorizationService _chatService = chatService;
         public async Task SendMessage(string user, string message)
         {
+            
             await Clients.Others.SendAsync("ReceiveMessage", user,message);
         }
         public async Task JoinRoom(string RoomName)
