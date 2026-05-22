@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Admin/Users": {
+    "/api/Admin/users": {
       "get": {
         "tags": [
           "Admin"
@@ -17,10 +17,21 @@
         }
       }
     },
-    "/api/Admin": {
-      "post": {
+    "/api/Admin/users/{id}/role": {
+      "put": {
         "tags": [
           "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -268,12 +279,9 @@
       "ChangeRoleUserDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "role": {
-            "$ref": "#/components/schemas/RolesTypes"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -357,16 +365,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "RolesTypes": {
-        "enum": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
       },
       "UpdateWorkoutDto": {
         "type": "object",

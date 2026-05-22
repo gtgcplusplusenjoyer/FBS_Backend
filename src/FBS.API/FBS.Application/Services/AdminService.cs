@@ -3,7 +3,6 @@ using FBS.Application.Dto.User;
 using FBS.Application.Interfaces;
 using FBS.Core.Enums;
 using FBS.Core.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace FBS.Application.Services
 {
@@ -22,18 +21,17 @@ namespace FBS.Application.Services
             var user = await _users.GetByIdAsync(id);
 
             if (user == null)
+                throw new ArgumentNullException(nameof(id), "Пользователь не найден");
+
+            if (user.UserRole == RolesTypes.Admin && type != RolesTypes.Admin)
             {
-                throw new ArgumentNullException("Unknown user");
+                throw new InvalidOperationException("Нельзя изменить роль администратора");
             }
 
-            if (type == RolesTypes.Trainer)
-            {
-                user.UserRole = type;
-                await _users.SaveChangesAsync();
-                return true;
-            }
+            user.UserRole = type;
+            await _users.SaveChangesAsync();
 
-            return false;
+            return true;
         }
 
         public async Task<List<UserDto>?> GetUsers()

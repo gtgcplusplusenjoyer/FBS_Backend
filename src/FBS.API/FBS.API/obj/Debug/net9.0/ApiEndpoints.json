@@ -1,28 +1,33 @@
 [
   {
     "ContainingType": "FBS.API.Controllers.AdminController",
-    "Method": "ChangeUserRoleAsync",
-    "RelativePath": "api/Admin",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "changeDto",
-        "Type": "FBS.Application.Dto.User.ChangeRoleUserDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FBS.API.Controllers.AdminController",
     "Method": "GetUsersAsync",
-    "RelativePath": "api/Admin/Users",
+    "RelativePath": "api/Admin/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FBS.API.Controllers.AdminController",
+    "Method": "ChangeUserRoleAsync",
+    "RelativePath": "api/Admin/users/{id}/role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userRole",
+        "Type": "FBS.Application.Dto.User.ChangeRoleUserDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

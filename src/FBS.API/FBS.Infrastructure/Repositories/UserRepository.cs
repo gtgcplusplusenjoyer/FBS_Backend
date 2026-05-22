@@ -42,7 +42,7 @@ namespace FBS.Infrastructure.Repositories
 
         public async Task<User?> GetByIdAsync(Guid id)
         {
-            return await _users.FirstAsync(x=>x.Id==id);
+            return await _users.FirstOrDefaultAsync(x=>x.Id==id);
         }
     }
 }
