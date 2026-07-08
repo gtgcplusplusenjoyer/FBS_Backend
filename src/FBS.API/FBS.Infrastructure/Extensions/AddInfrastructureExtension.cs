@@ -16,6 +16,7 @@ namespace FBS.Application.Extensions
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IWorkoutRepository, WorkoutRepository>();
+            services.AddScoped<INewsRepository, NewsRepository>();
 
             var connectionString = configuration.GetConnectionString(nameof(FbsDbContext));
             var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString);
