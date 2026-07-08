@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\validators\\news\\newsresponsedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\validators\\news\\newsresponsedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\mapper\\newsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\mapper\\newsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\validators\\user\\loginuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\validators\\user\\loginuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\dto\\news\\newsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\dto\\news\\newsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\interfaces\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAED4C70-8B2E-4FEF-9F1A-6D6D6D79508C}|FBS.Infrastructure\\FBS.Infrastructure.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.infrastructure\\extensions\\addinfrastructureextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\validators\\user\\registeruserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\validators\\user\\registeruserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\validators\\user\\loginuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|solutionrelative:fbs.application\\validators\\user\\loginuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD15EDE7-3D87-49DD-8309-D4327E208862}|FBS.Application\\FBS.Application.csproj|c:\\users\\user\\documents\\fbs_project\\src\\fbs.api\\fbs.application\\services\\workoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -362,6 +370,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NewsResponseDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\News\\NewsResponseDtoValidator.cs",
+              "RelativeDocumentMoniker": "FBS.Application\\Validators\\News\\NewsResponseDtoValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\News\\NewsResponseDtoValidator.cs",
+              "RelativeToolTip": "FBS.Application\\Validators\\News\\NewsResponseDtoValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T21:41:20.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewsMapper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Mapper\\NewsMapper.cs",
+              "RelativeDocumentMoniker": "FBS.Application\\Mapper\\NewsMapper.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Mapper\\NewsMapper.cs",
+              "RelativeToolTip": "FBS.Application\\Mapper\\NewsMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T21:39:06.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "INewsService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Interfaces\\INewsService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Interfaces\\INewsService.cs",
@@ -374,20 +408,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NewsResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\News\\NewsResponseDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\News\\NewsResponseDto.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\News\\NewsResponseDto.cs",
               "RelativeToolTip": "FBS.Application\\Dto\\News\\NewsResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-08T21:34:56.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "NewsRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Repositories\\NewsRepository.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Repositories\\NewsRepository.cs",
@@ -399,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Repositories\\UserRepository.cs",
@@ -411,7 +445,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "LoginUserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
+              "RelativeDocumentMoniker": "FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
+              "RelativeToolTip": "FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T10:59:03.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "WorkoutRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Repositories\\WorkoutRepository.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Repositories\\WorkoutRepository.cs",
@@ -423,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Services\\External\\JwtService.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Services\\External\\JwtService.cs",
@@ -435,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FbsDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Context\\FbsDbContext.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Context\\FbsDbContext.cs",
@@ -447,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "INewsRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\INewsRepository.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\INewsRepository.cs",
@@ -459,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AddInfrastructureExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Extensions\\AddInfrastructureExtension.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Extensions\\AddInfrastructureExtension.cs",
@@ -467,12 +518,11 @@
               "RelativeToolTip": "FBS.Infrastructure\\Extensions\\AddInfrastructureExtension.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAuwBcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T22:16:53.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T22:16:53.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AuthExtensions.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Extensions\\AuthExtensions.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Extensions\\AuthExtensions.cs",
@@ -484,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 86,
               "Title": "20260708210552_AddNewsTable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Migrations\\20260708210552_AddNewsTable.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Migrations\\20260708210552_AddNewsTable.cs",
@@ -496,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "FbsDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Migrations\\FbsDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Migrations\\FbsDbContextModelSnapshot.cs",
@@ -508,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "News.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\News.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Entities\\News.cs",
@@ -520,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "FBS.API\\appsettings.Development.json",
@@ -532,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ApplyMigrationExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Extensions\\ApplyMigrationExtension.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Extensions\\ApplyMigrationExtension.cs",
@@ -544,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Services\\External\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Services\\External\\PasswordHasher.cs",
@@ -556,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AuthSettings.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Settings\\AuthSettings.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Settings\\AuthSettings.cs",
@@ -568,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "AddAuthenticationAndJwtExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Extensions\\AddAuthenticationAndJwtExtension.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Extensions\\AddAuthenticationAndJwtExtension.cs",
@@ -580,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IWorkoutRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IWorkoutRepository.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\IWorkoutRepository.cs",
@@ -592,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\IUserRepository.cs",
@@ -604,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "IPasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\External\\IPasswordHasher.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\External\\IPasswordHasher.cs",
@@ -616,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Interfaces\\External\\IJwtService.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Interfaces\\External\\IJwtService.cs",
@@ -628,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "WorkoutTypes.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Enums\\WorkoutTypes.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Enums\\WorkoutTypes.cs",
@@ -640,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "RolesTypes.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Enums\\RolesTypes.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Enums\\RolesTypes.cs",
@@ -652,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Entities\\BaseEntity.cs",
@@ -664,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Workout.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\Workout\\Workout.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Entities\\Workout\\Workout.cs",
@@ -676,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Exercise.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\Workout\\Exercise.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Entities\\Workout\\Exercise.cs",
@@ -688,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\Entities\\User\\User.cs",
               "RelativeDocumentMoniker": "FBS.Core\\Entities\\User\\User.cs",
@@ -700,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "UpdateWorkoutDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\Workout\\UpdateWorkoutDtoValidator.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Validators\\Workout\\UpdateWorkoutDtoValidator.cs",
@@ -712,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ExerciseDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\Workout\\ExerciseDtoValidator.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Validators\\Workout\\ExerciseDtoValidator.cs",
@@ -724,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "CreateWorkoutDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\Workout\\CreateWorkoutDtoValidator.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Validators\\Workout\\CreateWorkoutDtoValidator.cs",
@@ -736,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "RegisterUserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\User\\RegisterUserDtoValidator.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Validators\\User\\RegisterUserDtoValidator.cs",
@@ -748,19 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LoginUserDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
-              "RelativeDocumentMoniker": "FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
-              "RelativeToolTip": "FBS.Application\\Validators\\User\\LoginUserDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T10:59:03.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "WorkoutService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Services\\WorkoutService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Services\\WorkoutService.cs",
@@ -772,7 +810,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ChatAuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Services\\ChatAuthorizationService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Services\\ChatAuthorizationService.cs",
@@ -784,7 +822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Services\\AuthService.cs",
@@ -796,7 +834,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Services\\AdminService.cs",
@@ -808,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "WorkoutMapper.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Mapper\\WorkoutMapper.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Mapper\\WorkoutMapper.cs",
@@ -820,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "UserMapper.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Mapper\\UserMapper.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Mapper\\UserMapper.cs",
@@ -832,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "IWorkoutService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Interfaces\\IWorkoutService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Interfaces\\IWorkoutService.cs",
@@ -844,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "IChatAuthorizationService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Interfaces\\IChatAuthorizationService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Interfaces\\IChatAuthorizationService.cs",
@@ -856,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Interfaces\\IAuthService.cs",
@@ -868,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "IAdminService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Interfaces\\IAdminService.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Interfaces\\IAdminService.cs",
@@ -880,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "AddValidationExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Extensions\\AddValidationExtension.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Extensions\\AddValidationExtension.cs",
@@ -892,7 +930,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "AddApplicationExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Extensions\\AddApplicationExtension.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Extensions\\AddApplicationExtension.cs",
@@ -904,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "WorkoutResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\Workout\\WorkoutResponseDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\Workout\\WorkoutResponseDto.cs",
@@ -916,7 +954,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "UpdateWorkoutDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\Workout\\UpdateWorkoutDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\Workout\\UpdateWorkoutDto.cs",
@@ -928,7 +966,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "ExerciseDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\Workout\\ExerciseDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\Workout\\ExerciseDto.cs",
@@ -940,7 +978,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "CreateWorkoutDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\Workout\\CreateWorkoutDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\Workout\\CreateWorkoutDto.cs",
@@ -952,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\User\\UserDto.cs",
@@ -964,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\User\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\User\\RegisterUserDto.cs",
@@ -976,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\User\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\User\\LoginUserDto.cs",
@@ -988,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "ChangeRoleUserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Dto\\User\\ChangeRoleUserDto.cs",
               "RelativeDocumentMoniker": "FBS.Application\\Dto\\User\\ChangeRoleUserDto.cs",
@@ -1000,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Program.cs",
               "RelativeDocumentMoniker": "FBS.API\\Program.cs",
@@ -1012,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "SwaggerExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Extensions\\SwaggerExtension.cs",
               "RelativeDocumentMoniker": "FBS.API\\Extensions\\SwaggerExtension.cs",
@@ -1024,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "ClaimsPrincipalExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Extensions\\ClaimsPrincipalExtension.cs",
               "RelativeDocumentMoniker": "FBS.API\\Extensions\\ClaimsPrincipalExtension.cs",
@@ -1036,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "Workouts.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Controllers\\Workouts.cs",
               "RelativeDocumentMoniker": "FBS.API\\Controllers\\Workouts.cs",
@@ -1048,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "Auth.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Controllers\\Auth.cs",
               "RelativeDocumentMoniker": "FBS.API\\Controllers\\Auth.cs",
@@ -1060,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "ApiController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Controllers\\ApiController.cs",
               "RelativeDocumentMoniker": "FBS.API\\Controllers\\ApiController.cs",
@@ -1072,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "FBS.API\\Controllers\\AdminController.cs",
@@ -1084,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "FBS.Application.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\FBS.Application.csproj",
               "RelativeDocumentMoniker": "FBS.Application\\FBS.Application.csproj",
@@ -1096,7 +1134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "FBS.API\\Hubs\\ChatHub.cs",
@@ -1108,7 +1146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\appsettings.json",
               "RelativeDocumentMoniker": "FBS.API\\appsettings.json",
@@ -1120,7 +1158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "FBS.API.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\FBS.API.csproj",
               "RelativeDocumentMoniker": "FBS.API\\FBS.API.csproj",
@@ -1132,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 85,
               "Title": "20260520174502_AddUserRole.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Migrations\\20260520174502_AddUserRole.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Migrations\\20260520174502_AddUserRole.cs",
@@ -1144,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "FBS.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\FBS.Infrastructure.csproj",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\FBS.Infrastructure.csproj",
@@ -1156,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "FBS.Core.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Core\\FBS.Core.csproj",
               "RelativeDocumentMoniker": "FBS.Core\\FBS.Core.csproj",
@@ -1168,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\\u0418\u0422\\StudentClass.API\\StudentClass.Application\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u0418\u0422\\StudentClass.API\\StudentClass.Application\\Services\\StudentService.cs",
@@ -1180,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "FBS.Application",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\FBS.Application.csproj",
               "RelativeDocumentMoniker": "FBS.Application\\FBS.Application.csproj",
@@ -1191,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 84,
               "Title": "20260510214737_AddWorkoutsTable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Migrations\\20260510214737_AddWorkoutsTable.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Migrations\\20260510214737_AddWorkoutsTable.cs",
@@ -1203,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\.env",
               "RelativeDocumentMoniker": "FBS.API\\.env",
@@ -1215,7 +1253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FBS.API\\Properties\\launchSettings.json",
@@ -1227,7 +1265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "FBS.API.http",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.API\\FBS.API.http",
               "RelativeDocumentMoniker": "FBS.API\\FBS.API.http",
@@ -1239,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "20260425165445_Initial.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Infrastructure\\Migrations\\20260425165445_Initial.cs",
               "RelativeDocumentMoniker": "FBS.Infrastructure\\Migrations\\20260425165445_Initial.cs",
@@ -1251,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Services\\AuthService.cs",
@@ -1262,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "RegisterUserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Validators\\RegisterUserDtoValidator.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Validators\\RegisterUserDtoValidator.cs",
@@ -1273,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "LoginUserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Validators\\LoginUserDtoValidator.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Validators\\LoginUserDtoValidator.cs",
@@ -1284,7 +1322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Interfaces\\IAuthService.cs",
@@ -1295,7 +1333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "AuthExtensions.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Extensions\\AuthExtensions.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Extensions\\AuthExtensions.cs",
@@ -1306,7 +1344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "AddValidationExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Extensions\\AddValidationExtension.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Extensions\\AddValidationExtension.cs",
@@ -1317,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "AddInfrastructureExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Extensions\\AddInfrastructureExtension.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Extensions\\AddInfrastructureExtension.cs",
@@ -1328,7 +1366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "AddAuthenticationAndJwtExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Extensions\\AddAuthenticationAndJwtExtension.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Extensions\\AddAuthenticationAndJwtExtension.cs",
@@ -1339,7 +1377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "AddApplicationExtension.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Extensions\\AddApplicationExtension.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Extensions\\AddApplicationExtension.cs",
@@ -1350,7 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 82,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Dto\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Dto\\RegisterUserDto.cs",
@@ -1361,7 +1399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 83,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Appliaction\\Dto\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "FBS.Appliaction\\Dto\\LoginUserDto.cs",
@@ -1369,10 +1407,6 @@
               "RelativeToolTip": "FBS.Appliaction\\Dto\\LoginUserDto.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T16:59:04.262Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
