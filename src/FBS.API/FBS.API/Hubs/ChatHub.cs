@@ -15,6 +15,7 @@ namespace FBS.API.Hubs
             if (!_chatService.CanSendMessage(userRole))
             {
                 await Clients.Caller.SendAsync("Error", _chatService.GetErrorMessage("send"));
+
                 return;
             }
 
