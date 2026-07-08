@@ -1,4 +1,5 @@
-﻿using FBS.Core.Entities.Training;
+﻿using FBS.Core.Entities;
+using FBS.Core.Entities.Training;
 using FBS.Core.Entities.User;
 using FBS.Core.Enums;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ namespace FBS.Infrastructure.Context
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Workout> Workouts { get; set; }
+        public DbSet<News> News { get; set; }
         public FbsDbContext(DbContextOptions<FbsDbContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -61,6 +63,30 @@ namespace FBS.Infrastructure.Context
 
                 entity.HasIndex(e => e.UserId);
                 entity.HasIndex(e => e.Date);
+            });
+
+            modelBuilder.Entity<News>(entity =>
+            {
+                entity.ToTable("News");
+
+                entity.HasKey(e=>e.Id);
+
+                entity.Property(e => e.Title)
+                    .IsRequired()
+                    .HasMaxLength(500);
+
+                entity.Property(e => e.ImageUrl)
+                    .IsRequired()
+                    .HasMaxLength(1000);
+
+                entity.Property(e => e.PublishedAt)
+                    .IsRequired();
+
+                entity.HasIndex(e => e.PublishedAt)
+                    .HasDatabaseName("IX_News_PublishedAt");
+
+                entity.HasIndex(e => e.Title)
+                    .HasDatabaseName("IX_News_Title");
             });
 
         }
