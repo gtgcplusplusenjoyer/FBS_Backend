@@ -62,7 +62,7 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build(); 
 
-//await app.ApplyMigration(); // когда отдаем докер раскомментируем
+await app.ApplyMigration(); // когда отдаем докер раскомментируем
 
 if (app.Environment.IsDevelopment())
 {

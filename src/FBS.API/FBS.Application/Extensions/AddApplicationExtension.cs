@@ -11,6 +11,7 @@ namespace FBS.Application.Extensions
         {
             services.AddAutoMapper(cfg => { }, typeof(WorkoutMapper), typeof(UserMapper));
             services.AddService();
+            services.AddHttpClient();
 
             return services;
         }
@@ -21,6 +22,7 @@ namespace FBS.Application.Extensions
             services.AddScoped<IWorkoutService, WorkoutService>();
             services.AddScoped<IChatAuthorizationService, ChatAuthorizationService>();
             services.AddScoped<IAdminService, AdminService>();
+            services.AddScoped<INewsService, NewsService>();
 
             return services;
         }

@@ -73,6 +73,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FBS.API.Controllers.NewsController",
+    "Method": "GetLatestNews",
+    "RelativePath": "api/News",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FBS.API.Controllers.NewsController",
+    "Method": "SyncNews",
+    "RelativePath": "api/News/sync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FBS.API.Controllers.WorkoutsController",
     "Method": "GetWorkoutsByDate",
     "RelativePath": "api/Workouts",
