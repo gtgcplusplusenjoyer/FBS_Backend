@@ -98,7 +98,6 @@ namespace FBS.Application.Services
                 var doc = new HtmlDocument();
                 doc.LoadHtml(html);
 
-                // Ищем заголовки новостей (адаптируйте XPath под актуальную структуру сайта)
                 var titleNodes = doc.DocumentNode.SelectNodes("//h2 | //h3 | //a[contains(@class, 'post-title')] | //a[contains(@class, 'entry-title')]");
 
                 if (titleNodes == null || !titleNodes.Any())
@@ -117,20 +116,22 @@ namespace FBS.Application.Services
                         if (string.IsNullOrEmpty(title) || title.Length < 3)
                             continue;
 
-                        // Ищем картинку в родительском элементе
                         var parent = node.ParentNode;
                         var imageNode = parent?.SelectSingleNode(".//img");
-                        var imageUrl = imageNode?.GetAttributeValue("src", "") ?? "";
 
-                        // Если картинка не найдена рядом с заголовком, ищем в контейнере выше
+                        var imageUrl = imageNode?.GetAttributeValue("data-src", null)
+                                       ?? imageNode?.GetAttributeValue("src", "")
+                                       ?? "";
+
                         if (string.IsNullOrEmpty(imageUrl) && parent != null)
                         {
                             var container = parent.ParentNode;
                             imageNode = container?.SelectSingleNode(".//img");
-                            imageUrl = imageNode?.GetAttributeValue("src", "") ?? "";
+                            imageUrl = imageNode?.GetAttributeValue("data-src", null)
+                                       ?? imageNode?.GetAttributeValue("src", "")
+                                       ?? "";
                         }
 
-                        // Делаем абсолютный URL для картинки
                         if (!string.IsNullOrEmpty(imageUrl) && !imageUrl.StartsWith("http"))
                         {
                             if (imageUrl.StartsWith("//"))
