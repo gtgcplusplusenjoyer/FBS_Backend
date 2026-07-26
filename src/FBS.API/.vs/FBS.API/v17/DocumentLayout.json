@@ -397,8 +397,7 @@
               "RelativeToolTip": "FBS.API\\Controllers\\NewsController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T21:58:14.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T21:58:14.925Z"
             },
             {
               "$type": "Document",
@@ -410,8 +409,7 @@
               "RelativeToolTip": "FBS.Application\\Dto\\News\\ParsedNewsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T21:54:52.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T21:54:52.269Z"
             },
             {
               "$type": "Document",
@@ -435,8 +433,7 @@
               "RelativeToolTip": "FBS.API\\FBS.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-25T16:52:12.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:52:12.321Z"
             },
             {
               "$type": "Document",
@@ -448,8 +445,7 @@
               "RelativeToolTip": "FBS.Application\\Dto\\News\\NewsResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T21:34:56.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T21:34:56.265Z"
             },
             {
               "$type": "Document",
@@ -461,8 +457,7 @@
               "RelativeToolTip": "FBS.Application\\Dto\\News\\GetLatestNewsRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T21:51:54.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T21:51:54.108Z"
             },
             {
               "$type": "Document",
@@ -474,8 +469,7 @@
               "RelativeToolTip": "FBS.Application\\Mapper\\NewsMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T21:39:06.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T21:39:06.262Z"
             },
             {
               "$type": "Document",
@@ -485,10 +479,14 @@
               "RelativeDocumentMoniker": "FBS.Application\\Services\\NewsService.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\Services\\NewsService.cs",
               "RelativeToolTip": "FBS.Application\\Services\\NewsService.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAkwHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAQwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-08T21:43:59.765Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -513,10 +511,6 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T17:53:20.827Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -708,7 +702,8 @@
               "RelativeToolTip": "FBS.Core\\Entities\\News.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T20:33:43.875Z"
+              "WhenOpened": "2026-07-08T20:33:43.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -816,7 +811,8 @@
               "RelativeToolTip": "FBS.Core\\Interfaces\\External\\IJwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T17:05:02.08Z"
+              "WhenOpened": "2026-04-25T17:05:02.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1224,8 +1220,7 @@
               "RelativeToolTip": "FBS.Application\\FBS.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-29T11:00:33.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T11:00:33.758Z"
             },
             {
               "$type": "Document",
@@ -1273,8 +1268,7 @@
               "RelativeToolTip": "FBS.Infrastructure\\FBS.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-25T16:50:22.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:50:22.691Z"
             },
             {
               "$type": "Document",
@@ -1286,8 +1280,7 @@
               "RelativeToolTip": "FBS.Core\\FBS.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-25T16:32:51.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:32:51.122Z"
             },
             {
               "$type": "Document",
@@ -1310,8 +1303,7 @@
               "ToolTip": "C:\\Users\\User\\Documents\\FBS_Project\\src\\FBS.API\\FBS.Application\\FBS.Application.csproj",
               "RelativeToolTip": "FBS.Application\\FBS.Application.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-11T09:45:23.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T09:45:23.396Z"
             },
             {
               "$type": "Document",

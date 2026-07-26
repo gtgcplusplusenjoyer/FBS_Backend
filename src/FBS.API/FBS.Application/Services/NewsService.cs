@@ -119,17 +119,13 @@ namespace FBS.Application.Services
                         var parent = node.ParentNode;
                         var imageNode = parent?.SelectSingleNode(".//img");
 
-                        var imageUrl = imageNode?.GetAttributeValue("data-src", null)
-                                       ?? imageNode?.GetAttributeValue("src", "")
-                                       ?? "";
+                        var imageUrl = imageNode?.GetAttributeValue("src", "") ?? "";
 
                         if (string.IsNullOrEmpty(imageUrl) && parent != null)
                         {
                             var container = parent.ParentNode;
                             imageNode = container?.SelectSingleNode(".//img");
-                            imageUrl = imageNode?.GetAttributeValue("data-src", null)
-                                       ?? imageNode?.GetAttributeValue("src", "")
-                                       ?? "";
+                            imageUrl = imageNode?.GetAttributeValue("src", "") ?? "";
                         }
 
                         if (!string.IsNullOrEmpty(imageUrl) && !imageUrl.StartsWith("http"))
